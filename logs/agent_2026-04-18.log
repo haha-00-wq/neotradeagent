@@ -1,0 +1,43 @@
+2026-04-18 09:36:08.913 | INFO     | __main__:__init__:75 - Agent 启动，模式：DRY_RUN，监控：['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT']
+2026-04-18 09:36:08.914 | INFO     | __main__:run_once:85 - ==================================================
+2026-04-18 09:36:08.914 | INFO     | __main__:run_once:86 - 开始决策轮询 2026-04-18 03:51:08 UTC
+2026-04-18 09:36:08.914 | INFO     | __main__:_process_symbol:105 - ── 处理 BTCUSDT ──
+2026-04-18 09:36:09.056 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 5 次，卖出 9 次
+2026-04-18 09:36:09.056 | INFO     | __main__:_process_symbol:125 - BTCUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 09:36:10.060 | INFO     | __main__:_process_symbol:105 - ── 处理 ETHUSDT ──
+2026-04-18 09:36:10.102 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 6 次，卖出 8 次
+2026-04-18 09:36:10.102 | INFO     | __main__:_process_symbol:125 - ETHUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 09:36:11.104 | INFO     | __main__:_process_symbol:105 - ── 处理 BNBUSDT ──
+2026-04-18 09:36:11.127 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 1 次，卖出 11 次
+2026-04-18 09:36:11.127 | INFO     | __main__:_process_symbol:125 - BNBUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 09:36:12.130 | INFO     | __main__:_process_symbol:105 - ── 处理 SOLUSDT ──
+2026-04-18 09:36:12.172 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 3 次，卖出 8 次
+2026-04-18 09:36:12.172 | INFO     | __main__:_process_symbol:125 - SOLUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 09:36:13.174 | INFO     | __main__:run_once:97 - 本轮结束 | 资金=10000.0 | 持仓=0 | 总PnL=0.0 USDT
+2026-04-18 10:19:14.199 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 4 次
+2026-04-18 10:19:56.818 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 3 次
+2026-04-18 10:41:36.790 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 4 次
+2026-04-18 10:41:44.275 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 5 次
+2026-04-18 10:44:30.347 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 2 次
+2026-04-18 10:45:13.719 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 2 次
+2026-04-18 10:45:16.908 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 2 次
+2026-04-18 10:45:23.360 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 2 次
+2026-04-18 10:45:30.688 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 4 次
+2026-04-18 10:45:32.610 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 5 次
+2026-04-18 10:48:03.295 | INFO     | src.agent.trading_agent:__init__:75 - Agent 启动，模式：DRY_RUN，监控：['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT']
+2026-04-18 10:48:03.295 | INFO     | src.agent.trading_agent:run_once:85 - ==================================================
+2026-04-18 10:48:03.296 | INFO     | src.agent.trading_agent:run_once:86 - 开始决策轮询 2026-04-18 05:03:03 UTC
+2026-04-18 10:48:03.296 | INFO     | src.agent.trading_agent:_process_symbol:105 - ── 处理 BTCUSDT ──
+2026-04-18 10:48:03.334 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 2 次，卖出 10 次
+2026-04-18 10:48:03.334 | INFO     | src.agent.trading_agent:_process_symbol:125 - BTCUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 10:48:04.337 | INFO     | src.agent.trading_agent:_process_symbol:105 - ── 处理 ETHUSDT ──
+2026-04-18 10:48:04.361 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 4 次，卖出 7 次
+2026-04-18 10:48:04.362 | INFO     | src.agent.trading_agent:_process_symbol:125 - ETHUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 10:48:05.363 | INFO     | src.agent.trading_agent:_process_symbol:105 - ── 处理 BNBUSDT ──
+2026-04-18 10:48:05.416 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 3 次，卖出 13 次
+2026-04-18 10:48:05.416 | INFO     | src.agent.trading_agent:_process_symbol:125 - BNBUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 10:48:06.417 | INFO     | src.agent.trading_agent:_process_symbol:105 - ── 处理 SOLUSDT ──
+2026-04-18 10:48:06.465 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 3 次，卖出 10 次
+2026-04-18 10:48:06.466 | INFO     | src.agent.trading_agent:_process_symbol:125 - SOLUSDT 无策略信号，跳过 LLM 分析
+2026-04-18 10:48:07.467 | INFO     | src.agent.trading_agent:run_once:97 - 本轮结束 | 资金=10000.0 | 持仓=0 | 总PnL=0.0 USDT
+2026-04-18 10:48:07.508 | INFO     | src.strategy.indicators:generate_signals:124 - 信号生成完成：买入 0 次，卖出 2 次

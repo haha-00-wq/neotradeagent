@@ -1,0 +1,23 @@
+2026-04-15 14:18:46.200 | INFO     | models:init_db:97 - 数据库表初始化完成
+2026-04-15 14:18:46.201 | INFO     | __main__:run_all:135 - ========== 开始批量抓取，共 5 只股票 ==========
+2026-04-15 14:18:46.201 | INFO     | __main__:fetch_single:47 - 开始拉取 AAPL，时间范围：2025-04-15 ~ 2026-04-15
+2026-04-15 14:18:48.170 | INFO     | __main__:fetch_single:57 - AAPL 拉取成功，共 250 条记录
+2026-04-15 14:18:48.212 | INFO     | __main__:save_to_db:96 - AAPL 写入 250 条（跳过已存在记录）
+2026-04-15 14:18:48.743 | INFO     | __main__:fetch_stock_info:126 - AAPL 基本信息已更新：Apple Inc.
+2026-04-15 14:18:49.751 | INFO     | __main__:fetch_single:47 - 开始拉取 TSLA，时间范围：2025-04-15 ~ 2026-04-15
+2026-04-15 14:18:50.052 | INFO     | __main__:fetch_single:57 - TSLA 拉取成功，共 250 条记录
+2026-04-15 14:18:50.086 | INFO     | __main__:save_to_db:96 - TSLA 写入 250 条（跳过已存在记录）
+2026-04-15 14:18:50.503 | INFO     | __main__:fetch_stock_info:126 - TSLA 基本信息已更新：Tesla, Inc.
+2026-04-15 14:18:51.513 | INFO     | __main__:fetch_single:47 - 开始拉取 GOOGL，时间范围：2025-04-15 ~ 2026-04-15
+2026-04-15 14:18:51.950 | INFO     | __main__:fetch_single:57 - GOOGL 拉取成功，共 250 条记录
+2026-04-15 14:18:51.983 | INFO     | __main__:save_to_db:96 - GOOGL 写入 250 条（跳过已存在记录）
+2026-04-15 14:18:52.348 | INFO     | __main__:fetch_stock_info:126 - GOOGL 基本信息已更新：Alphabet Inc.
+2026-04-15 14:18:53.358 | INFO     | __main__:fetch_single:47 - 开始拉取 MSFT，时间范围：2025-04-15 ~ 2026-04-15
+2026-04-15 14:18:53.703 | INFO     | __main__:fetch_single:57 - MSFT 拉取成功，共 250 条记录
+2026-04-15 14:18:53.743 | INFO     | __main__:save_to_db:96 - MSFT 写入 250 条（跳过已存在记录）
+2026-04-15 14:18:54.107 | INFO     | __main__:fetch_stock_info:126 - MSFT 基本信息已更新：Microsoft Corporation
+2026-04-15 14:18:55.117 | INFO     | __main__:fetch_single:47 - 开始拉取 NVDA，时间范围：2025-04-15 ~ 2026-04-15
+2026-04-15 14:18:55.464 | INFO     | __main__:fetch_single:57 - NVDA 拉取成功，共 250 条记录
+2026-04-15 14:18:55.497 | INFO     | __main__:save_to_db:96 - NVDA 写入 250 条（跳过已存在记录）
+2026-04-15 14:18:55.886 | INFO     | __main__:fetch_stock_info:126 - NVDA 基本信息已更新：NVIDIA Corporation
+2026-04-15 14:18:56.894 | INFO     | __main__:run_all:154 - ========== 完成：成功 5 只，失败 0 只 ==========

@@ -1,0 +1,60 @@
+2026-04-17 11:02:00.767 | INFO     | __main__:run:181 - 开始抓取：['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT']，周期：1h
+2026-04-17 11:02:00.767 | ERROR    | __main__:run:193 - ❌ BTCUSDT K线失败：Textual SQL expression 'SELECT MAX(open_time) FRO...' should be explicitly declared as text('SELECT MAX(open_time) FRO...')
+2026-04-17 11:02:00.892 | WARNING  | __main__:run:204 - ⚠️  BTCUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:02:01.396 | ERROR    | __main__:run:193 - ❌ ETHUSDT K线失败：Textual SQL expression 'SELECT MAX(open_time) FRO...' should be explicitly declared as text('SELECT MAX(open_time) FRO...')
+2026-04-17 11:02:01.407 | WARNING  | __main__:run:204 - ⚠️  ETHUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:02:01.910 | ERROR    | __main__:run:193 - ❌ BNBUSDT K线失败：Textual SQL expression 'SELECT MAX(open_time) FRO...' should be explicitly declared as text('SELECT MAX(open_time) FRO...')
+2026-04-17 11:02:01.921 | WARNING  | __main__:run:204 - ⚠️  BNBUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:02:02.422 | ERROR    | __main__:run:193 - ❌ SOLUSDT K线失败：Textual SQL expression 'SELECT MAX(open_time) FRO...' should be explicitly declared as text('SELECT MAX(open_time) FRO...')
+2026-04-17 11:02:02.431 | WARNING  | __main__:run:204 - ⚠️  SOLUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:02:02.934 | INFO     | __main__:run:208 - 全部完成：成功 0，失败 4
+2026-04-17 11:07:55.556 | INFO     | __main__:run:183 - 开始抓取：['BTCUSDT', 'ETHUSDT', 'BNBUSDT', 'SOLUSDT']，周期：1h
+2026-04-17 11:07:55.583 | INFO     | __main__:fetch_klines:58 - BTCUSDT 1h 全量拉取，起始 2025-04-17
+2026-04-17 11:07:55.860 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 1000 根
+2026-04-17 11:07:56.209 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 2000 根
+2026-04-17 11:07:56.546 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 3000 根
+2026-04-17 11:07:56.901 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 4000 根
+2026-04-17 11:07:57.233 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 5000 根
+2026-04-17 11:07:57.559 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 6000 根
+2026-04-17 11:07:57.910 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 7000 根
+2026-04-17 11:07:58.279 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 8000 根
+2026-04-17 11:07:58.596 | DEBUG    | __main__:fetch_klines:81 -   BTCUSDT 已拉 8766 根
+2026-04-17 11:07:59.638 | SUCCESS  | __main__:run:192 - ✅ BTCUSDT K线完成，新增 8766 条
+2026-04-17 11:07:59.638 | WARNING  | __main__:run:206 - ⚠️  BTCUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:08:00.147 | INFO     | __main__:fetch_klines:58 - ETHUSDT 1h 全量拉取，起始 2025-04-17
+2026-04-17 11:08:00.401 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 1000 根
+2026-04-17 11:08:00.734 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 2000 根
+2026-04-17 11:08:01.056 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 3000 根
+2026-04-17 11:08:01.385 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 4000 根
+2026-04-17 11:08:01.718 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 5000 根
+2026-04-17 11:08:02.048 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 6000 根
+2026-04-17 11:08:02.392 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 7000 根
+2026-04-17 11:08:02.731 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 8000 根
+2026-04-17 11:08:03.077 | DEBUG    | __main__:fetch_klines:81 -   ETHUSDT 已拉 8766 根
+2026-04-17 11:08:04.051 | SUCCESS  | __main__:run:192 - ✅ ETHUSDT K线完成，新增 8766 条
+2026-04-17 11:08:04.052 | WARNING  | __main__:run:206 - ⚠️  ETHUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:08:04.559 | INFO     | __main__:fetch_klines:58 - BNBUSDT 1h 全量拉取，起始 2025-04-17
+2026-04-17 11:08:04.791 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 1000 根
+2026-04-17 11:08:05.329 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 2000 根
+2026-04-17 11:08:05.658 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 3000 根
+2026-04-17 11:08:05.990 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 4000 根
+2026-04-17 11:08:06.312 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 5000 根
+2026-04-17 11:08:06.634 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 6000 根
+2026-04-17 11:08:07.195 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 7000 根
+2026-04-17 11:08:07.522 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 8000 根
+2026-04-17 11:08:07.847 | DEBUG    | __main__:fetch_klines:81 -   BNBUSDT 已拉 8766 根
+2026-04-17 11:08:08.807 | SUCCESS  | __main__:run:192 - ✅ BNBUSDT K线完成，新增 8766 条
+2026-04-17 11:08:08.808 | WARNING  | __main__:run:206 - ⚠️  BNBUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:08:09.314 | INFO     | __main__:fetch_klines:58 - SOLUSDT 1h 全量拉取，起始 2025-04-17
+2026-04-17 11:08:09.540 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 1000 根
+2026-04-17 11:08:09.885 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 2000 根
+2026-04-17 11:08:10.235 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 3000 根
+2026-04-17 11:08:10.577 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 4000 根
+2026-04-17 11:08:10.906 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 5000 根
+2026-04-17 11:08:11.242 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 6000 根
+2026-04-17 11:08:11.576 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 7000 根
+2026-04-17 11:08:12.147 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 8000 根
+2026-04-17 11:08:12.466 | DEBUG    | __main__:fetch_klines:81 -   SOLUSDT 已拉 8766 根
+2026-04-17 11:08:13.412 | SUCCESS  | __main__:run:192 - ✅ SOLUSDT K线完成，新增 8766 条
+2026-04-17 11:08:13.413 | WARNING  | __main__:run:206 - ⚠️  SOLUSDT 资金费率跳过（可能是现货）：'Client' object has no attribute 'get_funding_rate'
+2026-04-17 11:08:13.913 | INFO     | __main__:run:210 - 全部完成：成功 4，失败 0
